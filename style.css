@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+body{
+    background-color: red;
+
+}
+
+div{
+    display: inline-block;
+    text-align: center;
+}
+
+a div{
+    right: 50%;
+}
+h1{
+    padding-top: 50px;
+    color:#fff;
+    text-align: center;
+    font-size:3em;
+}
+a{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.8rem;
+    border: 2px solid white;
+    border-radius: 6px 6px 6px 6px;
+}
+nav{
+    text-align: center;
+    padding-top: 8rem;
+    word-spacing: 400px;
+    word-wrap: break-word;
+}
+.nao a{
+    text-align: center;
+    background-color: black;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.8rem;
+    border: 2px solid black;
+    border-radius: 6px 6px 6px 6px;
+}
+.nao a:hover{
+    background-color: red;
+    cursor: initial;
+    color: red;
+    border: red;
+}
+.nao{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    display: inline;
+}
+
+.sim{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    display: inline;
+}
+.sim a{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    padding: 0.8rem;
+    border: 2px solid white;
+    border-radius: 6px 6px 6px 6px;
+}
+.sim a:hover{
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 80px;
+}
